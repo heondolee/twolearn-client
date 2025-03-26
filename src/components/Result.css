@@ -21,9 +21,10 @@
 
 .dot-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 300px;
   padding: 30px 50px;
+  gap: 220px;
 }
 
 .dot {
@@ -31,13 +32,12 @@
   height: 40px;
   border-radius: 50%;
   cursor: pointer;
-  transition: opacity 0.3s ease;
 }
 
-/* 첫번째, 마지막 버튼 숨기기 */
+/* hidden 클래스 스타일 수정 */
 .dot.hidden {
+  visibility: hidden;
   opacity: 0;
-  pointer-events: none; /* 클릭도 안 되게 */
 }
 
 .green {
