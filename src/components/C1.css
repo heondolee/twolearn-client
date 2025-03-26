@@ -7,7 +7,7 @@
 
 
 body {
-    font-family: sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 16px;
     margin: 0;
     padding: 20px;
@@ -15,6 +15,7 @@ body {
     margin: 0 auto;
     background-color: #fff;
     box-sizing: border-box;
+    
 }
 
 header {
@@ -99,12 +100,11 @@ h3 {
     padding: 0;
     display: flex;
     float: right;
-    margin-top: 20px;
+    margin-top: -15px;
 }
 
 #next {
     width: 40px;
-    height: 18px;
+    height: 18px;   
 }
 
-/*  */
