@@ -31,7 +31,7 @@ const Page1 = () => {
         interests: selectedInterests.join(',')
       };
 
-      const response = await axios.post('http://localhost:4000/user', userData);
+      const response = await axios.post('https://52.207.212.89.nip.io/user', userData);
       
       if (response.status === 201) {
         console.log('사용자 생성 성공:', response.data);
