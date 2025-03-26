@@ -97,7 +97,7 @@ const Page1 = () => {
               <div className="button-row">
                 {interests.map((interest, index) => (
                   <button
-                    type="button" // form 제출 방지
+                    type="button"
                     key={index}
                     className={`circle-btn ${selectedInterests.includes(interest) ? 'selected' : ''}`}
                     onClick={() => toggleSelection(interest)}
@@ -109,7 +109,7 @@ const Page1 = () => {
             </div>
             
             <button type="submit" id="btn">
-              다음
+              <img id="next" src={process.env.PUBLIC_URL + '/arrow.svg'} alt="다음" />
             </button>
           </section>
         </form>
