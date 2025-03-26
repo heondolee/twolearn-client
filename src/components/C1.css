@@ -1,0 +1,98 @@
+.interest-buttons {
+    display: inline;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 20px;
+    max-width: 390px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 5px 0;
+   
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+
+
+/* 관심사 버튼 */
+.circle-btn {
+    border: none; 
+    outline: none; 
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #fff94b;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-row .circle-btn {
+    max-width: 48%;
+}
+
+
+/* 관심사 버튼 클릭 */
+.circle-btn.selected {
+    background-color: #ACDE70;
+    color: black;
+
+}
+
+#nick {
+    padding-bottom: 10px;
+}
+
+#talk {
+    padding-top: 10px;
+}
+
+/* 닉네임 입력란 */
+#nickname {
+    width: 100%;
+    max-width: 200px;
+    height: 20px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+
+/* 매칭 페이지 버튼 */
+#btn {
+    display: flex;
+    /* justify-content: flex-end; */
+    float: right;
+    font-size: 70px;
+    text-decoration: none;
+    color: black;
+    width: 40px;
+    height: 18px;
+    /* text-align: center; */
+    line-height: 80px;
+    flex-shrink: 0;
+}

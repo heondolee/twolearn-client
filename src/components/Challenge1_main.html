@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>두런두런</title>
+    <link rel="stylesheet" href="C1.css">
+</head>
+<body>
+    <header>
+        <h3>두명의 러너가 친구가 되는</h3>
+        <h1>두런두런</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <h3 id="nick">제 닉네임은 <input type="text" id="nickname" placeholder="닉네임을 영어로 입력하세요."> 입니다.</h3>
+            <input type="radio" name="gender" value="male" checked /> 남성
+            <input type="radio" name="gender" value="female" /> 여성
+            <br>
+            <Input type="checkbox"/> 이성과의 대화는 부담스러워요
+            <h3 id="talk"> 제 관심사는 </h3>
+            <div class="interest-buttons">
+                <div class="button-row">
+                    <button class="circle-btn" onclick="toggleSelection(this)">운동</button>
+                    <button class="circle-btn" onclick="toggleSelection(this)">음악</button>
+            
+                    <button class="circle-btn" onclick="toggleSelection(this)">여행</button>
+                    <button class="circle-btn" onclick="toggleSelection(this)">사진&영상</button>
+            
+                    <button class="circle-btn" onclick="toggleSelection(this)">테크</button>
+                    <button class="circle-btn" onclick="toggleSelection(this)">디자인</button>
+                
+                    <button class="circle-btn" onclick="toggleSelection(this)">도메인</button>
+                    <button class="circle-btn" onclick="toggleSelection(this)">게임</button>
+                </div>
+            </div>
+                <a href="loading.html" id="btn"> 
+                    <img id="next" src="화살표.svg">
+                </a>
+        </section>
+    </main>
+    <script>
+        function toggleSelection(button) {
+            button.classList.toggle("selected");
+        }
+    </script>
+</body>
+</html>
