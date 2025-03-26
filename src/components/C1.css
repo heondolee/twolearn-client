@@ -34,6 +34,14 @@ h3 {
     margin: 10px 0;
 }
 
+.interest-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 630px; /* 화면 전체 높이 */
+    padding-left: 25px;
+    flex-wrap: wrap; /* 화면에 맞게 버튼들이 줄 바꿈되도록 */
+}
 
 
 /* 관심사 버튼 */

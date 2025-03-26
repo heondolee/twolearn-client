@@ -107,10 +107,11 @@ const Page1 = () => {
                 ))}
               </div>
             </div>
-            
+  
             <button type="submit" id="btn">
               <img id="next" src={process.env.PUBLIC_URL + '/arrow.svg'} alt="다음" />
             </button>
+            
           </section>
         </form>
       </main>
