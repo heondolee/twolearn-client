@@ -60,11 +60,11 @@ const Music1 = () => {
     
         <div className="dot-nav">
           <div 
-            className={`dot green ${currentIndex === 0 ? 'hidden' : ''}`} 
+            className={`dot2 green ${currentIndex === 0 ? 'hidden' : ''}`} 
             onClick={goPrev}
           />
           <div 
-            className={`dot yellow ${currentIndex === totalCards - 1 ? 'hidden' : ''}`} 
+            className={`dot2 yellow ${currentIndex === totalCards - 1 ? 'hidden' : ''}`} 
             onClick={goNext}
           />
         </div>

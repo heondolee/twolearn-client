@@ -27,7 +27,7 @@
   gap: 220px;
 }
 
-.dot {
+.dot2 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -35,7 +35,7 @@
 }
 
 /* hidden 클래스 스타일 수정 */
-.dot.hidden {
+.dot2.hidden {
   visibility: hidden;
   opacity: 0;
 }
