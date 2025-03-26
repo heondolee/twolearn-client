@@ -7,7 +7,7 @@
 
 
 body {
-    font-family: sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 16px;
     margin: 0;
     padding: 20px;
@@ -15,6 +15,7 @@ body {
     margin: 0 auto;
     background-color: #fff;
     box-sizing: border-box;
+    
 }
 
 header {
@@ -38,8 +39,8 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 630px; /* 화면 전체 높이 */
-    padding-left: 25px;
+    height: 670px; /* 화면 전체 높이 */
+    padding-left: 20px;
     flex-wrap: wrap; /* 화면에 맞게 버튼들이 줄 바꿈되도록 */
 }
 
@@ -48,8 +49,8 @@ h3 {
 .circle-btn {
     border: none; 
     outline: none; 
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-color: #fff94b;
     color: black;
@@ -99,12 +100,11 @@ h3 {
     padding: 0;
     display: flex;
     float: right;
-    margin-top: 20px;
+    margin-top: -15px;
 }
 
 #next {
     width: 40px;
-    height: 18px;
+    height: 18px;   
 }
 
-/*  */
